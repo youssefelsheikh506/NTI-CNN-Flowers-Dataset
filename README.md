@@ -50,14 +50,8 @@ The CNN model was built using **Keras Sequential API**:
 
 ---
 
-## 📊 Model Summary
-The model learns features from flower images and classifies them into one of **5 categories**.  
-It was trained with augmented data and validated on a holdout validation split.
+## 💾 Saving the Model
+After training, the model was saved in **Keras format**:
 
----
-
-## 🚀 Next Steps
-- Tune hyperparameters (filters, dense units, learning rate).  
-- Try adding more convolutional layers.  
-- Use transfer learning with pretrained models like **VGG16** or **ResNet50** for higher accuracy.  
-
+```python
+model.save("CNN.keras")
