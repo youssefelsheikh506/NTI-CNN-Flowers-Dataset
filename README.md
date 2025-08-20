@@ -1,7 +1,7 @@
 # NTI-CNN-Flowers-Dataset 🌸
 
 This project trains a Convolutional Neural Network (CNN) to classify flower images from the [Flowers Recognition dataset](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).  
-It uses **TensorFlow/Keras** and applies image augmentation for better generalization.
+It uses **TensorFlow/Keras** for model training and **Streamlit** for deployment as a web application.
 
 ---
 
